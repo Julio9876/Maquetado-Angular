@@ -55,7 +55,7 @@ a {
 .btn {
     display: inline-block;
     font-size: 15px;
-    padding: 15px 40px;
+    padding: 15px 25px;
     letter-spacing: 1px;
 }
 
@@ -70,6 +70,31 @@ a {
 .btn-outline:hover {
 background: maroon;
 color: #fff;
+}
+
+.btn-outline-2 {
+    background: transparent;
+    color: black;
+    font-weight: 400;
+    border-radius: 11px;
+}
+
+.btn-outline-2:hover {
+color: maroon;
+}
+
+.btn-outline-3 {
+    background: maroon;
+    border: 1px solid maroon;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 11px;
+}
+
+.btn-outline-3:hover {
+background: rgb(175, 0, 0);
+color: #fff ;
+border: 1px solid maroon;
 }
 
 /* Navbar */
@@ -115,9 +140,10 @@ color: #fff;
     text-align: center;
 }
 
-#navbar .author {
+#mainheader .author {
     font-size: 50px;
-    text-align: end;
+    text-align: center;
+    padding-left: 20px;
 }
 
 /* Showcase */
@@ -145,7 +171,7 @@ color: #fff;
     margin: auto;
     max-width: 1300px;
     overflow: auto;
-    padding: 50px 20px;
+    padding: 80px 0px;
     
 }
 
